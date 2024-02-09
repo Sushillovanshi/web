@@ -1,0 +1,178 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #bba5b2;
+}
+html{
+    overflow-x: hidden;
+}
+/* ==============style on unordered lis================== */
+ul{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style-type: none;
+    background-color: rgb(63, 59, 59);
+    margin: 0px;
+}
+ul li{
+    padding: 25px;
+}
+ul li:hover{
+    background-color: rgb(76, 76, 76);
+}
+ul li #portfolio{
+    font-weight: 800;
+    font-size: 18px;
+    color: rgb(129, 120, 117);
+    font-family: cursive;
+}
+/* ==========style on anchor tag================ */
+ul li a{
+    text-decoration: none;
+    color: rgb(252, 249, 249);
+    font-weight: 700;
+    font-size: 17px;
+}
+/* ================div hero tag======================== */
+.hero{
+    height: 690px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid rgb(131, 138, 196);
+}
+/* ==============box1 height width=============== */
+#box1{
+   height: 75%;
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   /* background-color: wheat; */
+}
+#box1 #box-1{
+    height: 60%;
+    width: 80%;
+    line-height: 10px;
+    /* border: 1px solid; */
+}
+#box1 #box-1 #greet{
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+#box1 #box-1 #name{
+    font-weight: 800;
+    font-size: 45px;
+    font-family: cursive;
+    color: #fff;
+}
+
+#box1 #box-1 span{
+    padding:8px 40px;
+    background-color: rgb(92, 124, 132);
+    color: white;
+    border: 1px solid transparent;
+}
+#box1 #box-1 p{
+    font-weight: 800;
+    line-height: 15px;
+    padding: 5px 15px;
+}
+/* =========box1 fo box-1 heigh width============== */
+#box1 #box-2{
+    height: 25%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 1px solid; */
+}
+/* ==========box1 of box-2 btn(know more..) styling================= */
+#box1 #box-2 #btn{
+    margin-left: 15px;
+    padding: 13px 30px;
+    outline: none;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color:  rgb(92, 124, 132);
+}
+/* ==========box1 of box-2 resume styling================= */
+#box1 #box-2 #resume{
+    margin-left: 15px;
+    padding: 13px 38px;
+    outline: none;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color:  rgb(92, 124, 132);
+}
+/* =========hover effect of button============= */
+#box1 #box-2 #btn:hover{
+    cursor: pointer;
+    transition: .5s;
+    background-color: #fff
+}
+/* ============hover effect on resume button============= */
+#box1 #box-2 #resume:hover{
+    cursor: pointer;
+    transition: .5s;
+    background-color: #fff
+}
+/* ========box2 height width================= */
+#box2{
+    height: 80%;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ /* =============box2 of box-1 height and width=============== */
+ #box2 #box2-box-1{
+    height: 85%;
+    width: 62%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius:  100px;
+    border-top-left-radius:   100px;
+    border-top-right-radius:   100px;
+    box-shadow: 4px 8px 8px 4px rgb(197, 180, 180);
+    overflow: hidden;
+    background-color: rgb(90, 113, 118);
+    /* background-image: linear-gradient(to top, #035b5b, teal, #45a188); */
+ }
+ #box2 #box2-box-1 img{
+    height: 470px;
+    filter: drop-shadow(0px 1px 10px white);
+    filter: hue-rotate(140deg);
+ }
+ /* ================box2 of box-2 height width================== */
+ #box2 #box2-box-2{
+    height: 60%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+ }
+ #box2 #box2-box-2 a{
+    padding: 10px;
+    color: rgb(69, 83, 126);
+    font-size: 30px;
+ }
+
+ /* ============box2 of box-2 icons================ */
+ #box2 #box2-box-2 i:hover{
+    text-shadow: 0px 1px 20px rgb(251, 221, 221);
+ }
